@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #ffef89, #fce788, #f8df87, #f3d787, #eecf86, #ebc87d, #e9c175, #e6ba6d, #e5b25a, #e4aa47, #e2a231, #e19915);
+}
+
+.link {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(230, 180, 122);
+}
+
+.logo {
+    display: flex;
+    align-self: flex-start;
+    margin-right: 240px;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(66, 64, 64)
+}
