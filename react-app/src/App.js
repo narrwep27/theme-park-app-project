@@ -5,17 +5,23 @@ import About from './routes/About';
 import Rides from './routes/Rides';
 import Tickets from './routes/Tickets';
 import Entry from './routes/Entry';
+import Nav from './components/Nav'
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Switch>
+      <Nav />
+      <main>
+        <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/entry" component={Tickets} />
+        <Route path="/entry" component={Entry} />
         <Route path="/ride" component={Rides} />
-        <Route path="/ticket" component={Entry} />
+        <Route path="/ticket" component={Tickets} />
       </Switch>
+      </main>
+    <Footer />
     </div>
   );
 }
