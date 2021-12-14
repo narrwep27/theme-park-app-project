@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
-import Footer from '../components/Footer';
 import Ride from '../components/Ride';
 
 export default function Rides(props) {
@@ -26,7 +25,6 @@ export default function Rides(props) {
         imageUrl={ride.imageUrl}
         />
       ))}
-      <Footer />
     </div>
   );
 };
