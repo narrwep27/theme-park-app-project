@@ -58,3 +58,15 @@ Organization:
 - [Entity Relationship Diagram](https://lucid.app/lucidchart/878e144b-1c46-452c-b700-2639746b1ce0/edit?invitationId=inv_efbf1b92-3bbb-4fe6-bd25-ad6c12e1ba8a)
 
 - [Trello](https://trello.com/invite/b/siFAlsJL/8987f2feb0d4bb5a7a0ee1e192725935/stackathon)
+
+Image Links:
+- [SFNE Online - Superman](https://www.sfneonline.org/2015/09/08/fireball-superman-the-ride-six-flags-new-england-2016/)
+- [YouTube - Fligh of Fear](https://www.youtube.com/watch?v=iHOp3pvuStk)
+- [MentalFloss - Teacups](https://www.mentalfloss.com/article/83074/10-head-spinning-facts-about-disneys-mad-tea-party-ride)
+- [Beston Amusement Rides - Bumper Cars](https://amusementrides.org/tag/amusement-park-bumper-cars/)
+- [About Theme Parks - Drop Tower](https://aboutthemeparks.net/the-tallest-drop-tower-rides-in-north-america/)
+- [Redbubble - Merry-Go-Round](https://www.redbubble.com/people/hybcemoe/works/3437776-merry-go-round)
+- [Dreamstime - Swing Carousel](https://www.dreamstime.com/editorial-image-colorful-chain-swing-carousel-motion-amusement-park-blue-sky-background-image96947745)
+- [WonderLA - Pirate Ship](https://www.wonderla.com/bangalore-amusement-park/land-rides/pirate-ship.html)
+- [CoasterForce - Wild Mouse](https://coasterforce.com/ef-miler/)
+- [Wallhere - Ferris Wheel](https://wallhere.com/en/wallpaper/554646)
