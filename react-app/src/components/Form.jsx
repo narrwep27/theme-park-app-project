@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ReactDom from 'react-dom'
 import axios from 'axios'
+import { BASE_URL } from '../globals';
 
 export default function Form(){
     const [firstName, setFirstName] = useState('');
@@ -37,14 +38,14 @@ export default function Form(){
             return
         }
         setSubmit(true)
-        await axios.post("http://localhost:3001/visitor", {
+        await axios.post(`${BASE_URL}visitor`, {
             firstName: firstName,
             lastName: lastName,
             age: age,
             height: height,
             dateEntry: date
         })
-       const res = await axios.get(`http://localhost:3001/entryfee/${age}`)
+       const res = await axios.get(`${BASE_URL}entryfee/${age}`)
        setEntryFee(res.data.fee)
     }
     let feeDisplay = undefined

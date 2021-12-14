@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import Footer from '../components/Footer';
 import Ride from '../components/Ride';
+import { BASE_URL } from '../globals';
 
 export default function Rides(props) {
   const [rides, setRides] = useState([]);
   
   useEffect(() => {
     const getRides = async () => {
-      let rides = await axios.get('http://localhost:3001/ride');
+      let rides = await axios.get(`${BASE_URL}ride`);
       setRides(rides.data);
     };
     getRides();
