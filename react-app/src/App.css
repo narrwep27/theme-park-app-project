@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
   position: relative;
+  justify-content: space-between;
 }
-html, body, #root, .App{
-  min-height: 1000px;
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+html,
+body,
+#root,
+.App {
+  min-height: 1000px;
 }
 
 .ride-container {
@@ -37,31 +49,29 @@ html, body, #root, .App{
   gap: 10px;
 }
 
-.footer{
+.footer {
   border-top: 2px solid black;
-  background-color: #D10000;
+  background-color: #d10000;
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
-.about-flex{
+.about-flex {
   display: flex;
   justify-content: center;
   gap: 10px;
   text-align: justify;
 }
-.about-flex img{
+.about-flex img {
   height: 300px;
   width: 300px;
   float: left;
   margin: 10px;
 }
-.cit{
+.cit {
   text-align: center;
 }
-.about-head{
+.about-head {
   text-align: center;
 }
 
@@ -70,4 +80,55 @@ html, body, #root, .App{
   width: 300px;
   margin: 3em auto;
   text-align: left;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.homepage-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.homepage-main button {
+  width: 200px;
+  height: 100px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  color: rgb(66, 64, 64);
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.homepage-main button:hover {
+  background-color: hsl(52, 100%, 77%);
+  border-color: transparent;
+}
+
+.homepage-image {
+  /* npr.org */
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2015%2F08%2F04%2Fimg_0944-a7b5c96343c5faf379d89ec358e7b1817a936aa0-s1100-c15.jpg&f=1&nofb=1');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.homepage-image h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: white;
+  font-size: 60px;
+  backdrop-filter: brightness(0.5) blur(5px);
+  width: 100%;
+  height: 100%;
 }
