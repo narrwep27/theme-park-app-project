@@ -6,6 +6,7 @@ import Rides from './routes/Rides';
 import Tickets from './routes/Tickets';
 import Entry from './routes/Entry';
 import Nav from './components/Nav'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/ticket" component={Tickets} />
       </Switch>
       </main>
+    <Footer />
     </div>
   );
 }
