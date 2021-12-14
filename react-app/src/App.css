@@ -1,3 +1,33 @@
 .App {
   text-align: center;
 }
+
+.ride-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.ride {
+  display: flex;
+  gap: 20px;
+  min-height: 150px;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+.ride h3,
+.ride p {
+  text-align: left;
+  margin: 0;
+}
+
+.ride img {
+  width: 150px;
+}
+
+.ride-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
