@@ -1,14 +1,18 @@
 import React from 'react'
-import Header from '../components/Header';
 import HomePageImage from '../components/HomePageImage';
-import Footer from '../components/Footer';
 
-export default function Home() {
+export default function Home(props) {
+
+  const goToTicketPage = () => {
+    props.history.push('/ticket');
+  }
+  
   return (
-    <div>
-      <Header />
+    <div className="homepage">
       <HomePageImage />
-      <Footer />
+      <div className="homepage-main">
+        <button onClick={goToTicketPage}>Get Started!</button>
+      </div>
     </div>
   )
 };
