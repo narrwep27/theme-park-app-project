@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Ride from '../components/Ride';
 
@@ -17,7 +16,6 @@ export default function Rides(props) {
   
   return (
     <div className="ride-container">
-      <Header />
       {rides.map((ride, index) => (
         <Ride 
         key={index}
