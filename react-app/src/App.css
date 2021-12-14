@@ -31,3 +31,10 @@
   flex-direction: column;
   gap: 10px;
 }
+
+.entryfee {
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 3em auto;
+  text-align: left;
+}
