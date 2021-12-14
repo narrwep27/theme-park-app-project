@@ -37,7 +37,6 @@ export default function Form(){
             return
         }
         setSubmit(true)
-        // console.log('sdfdsf')
         await axios.post("http://localhost:3001/visitor", {
             firstName: firstName,
             lastName: lastName,
@@ -47,7 +46,6 @@ export default function Form(){
         })
        const res = await axios.get(`http://localhost:3001/entryfee/${age}`)
        setEntryFee(res.data.fee)
-    //    console.log(res.data.fee)
     }
     let feeDisplay = undefined
         if (submit === true){
