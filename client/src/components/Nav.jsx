@@ -9,10 +9,10 @@ const Nav = () => {
             <img src = {'/img/logo.png'} alt = 'logo' className = 'logo-img'/>
             </div>
             <Link to = '/' className= 'link'>Home </Link>
-            <Link to = '/about' className= 'link'>About </Link>
             <Link to = '/ticket' className= 'link'>Tickets </Link>
             <Link to = '/ride' className= 'link'>Rides </Link>
             <Link to = '/entry' className= 'link'>Entry </Link>
+            <Link to = '/about' className= 'link'>About </Link>
         </div>
     )
 }

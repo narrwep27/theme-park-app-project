@@ -6,11 +6,7 @@ let dbUrl =
     ? process.env.MONGODB_URI
     : 'mongodb://127.0.0.1:27017/themeParkDatabase';
 
-console.log(dbUrl, {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-  useFindAndModify: true
-});
+console.log(dbUrl, process.env.NODE_ENV, process.env.MONGODB_URI);
 
 mongoose
   .connect(dbUrl)

@@ -54,17 +54,16 @@ export default function Form(){
         } 
 
     return (
-        <div>
-
-        <form onSubmit={handleSubmit}>
-            <input onChange = {handleFirstNameChange} type = 'text' placeholder = 'first name' value = {firstName}/>
-            <input onChange = {handleLastNameChange} type = 'text' placeholder = 'last name' value = {lastName}/>
-            <input onChange = {handleAgeChange} type = 'number' placeholder = 'age' value = {age}/>
-            <input onChange = {handleHeightChange} type = 'text' placeholder = 'height' value = {height}/>
-            <input onChange = {handleDateChange} type = 'date' placeholder = 'visit date' value = {date}/>
-            <button type = 'submit'>Submit</button>
-        </form>
-        {feeDisplay}
+        <div className="tickets-form">
+            <form onSubmit={handleSubmit}>
+                <input onChange = {handleFirstNameChange} type = 'text' placeholder = 'first name' value = {firstName}/>
+                <input onChange = {handleLastNameChange} type = 'text' placeholder = 'last name' value = {lastName}/>
+                <input onChange = {handleAgeChange} type = 'number' placeholder = 'age' value = {age}/>
+                <input onChange = {handleHeightChange} type = 'text' placeholder = 'height' value = {height}/>
+                <input onChange = {handleDateChange} type = 'date' placeholder = 'visit date' value = {date}/>
+                <button type = 'submit'>Submit</button>
+            </form>
+            {feeDisplay}
         </div>
     )
 }
